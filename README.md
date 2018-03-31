@@ -4,7 +4,7 @@ This repo is a personal favourite. It includes a series of python scripts (caesa
 caesar.py - The Simplest
 -
 
-- Inspired by the famous [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher approach).
+- Inspired by the famous [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher) approach.
 - User enters an offset (number between -25 and 25 inclusive).
 - User also enters a message as a string.
 - The message gets encrypted (or decrypted), based on the choice of the user. Decryption negates the offset.
