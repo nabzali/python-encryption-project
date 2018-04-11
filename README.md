@@ -1,5 +1,5 @@
 # Python Encryption Project
-This repo is a personal favourite. It includes a series of python scripts (caesar.py, keyword.py, fileKeyword.py)
+This repo is a personal favourite. It includes a series of python scripts (caesar.py, keyword.py, fileKeyword.py). Each of the three scripts are individual encryption algorithms of different levels of robustness. In short, encryption allows messages and data to be sent across networks securely.
 
 caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 -
