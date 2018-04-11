@@ -36,4 +36,10 @@ fileKeyword.py - Double Keyword Cipher (with file handling)
 - Apart from this, there is also file handling in this particular python script and as such the user has the ability to encrypt text files
 - It is worth noting that the use of two keywords means there is more error checking involved to ensure that a valid ecnrypted letter is returned.
 
+Cloning:
+
+`git clone https://github.com/nabzali/python-encryption-project.git`
+
 **March 2018 | Nabeel Ali**
+
+
