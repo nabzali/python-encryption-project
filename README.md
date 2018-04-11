@@ -1,10 +1,9 @@
 # Python Encryption Project
 This repo is a personal favourite. It includes a series of python scripts (caesar.py, keyword.py, fileKeyword.py)
 
-caesar.py - Caesar Cipher
+caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 -
 
-- Inspired by the famous [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 - User enters an offset (integer between -25 and 25 inclusive).
 - User also enters a message to encrypt, which will be a string.
 - The message gets encrypted. Decryption will essentially work in the same way as encryption except that the offset is negated.
