@@ -3,7 +3,7 @@ This repo is a personal favourite. It includes a series of python scripts (caesa
 
 caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 -
-<img src = "https://en.wikipedia.org/wiki/Caesar_cipher" alt = "Caesar Cipher" style="margin:auto">
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/1200px-Caesar_cipher_left_shift_of_3.svg.png" alt = "Caesar Cipher" style="margin:auto">
 
 - User enters an offset (integer between -25 and 25 inclusive).
 - User also enters a message to encrypt, which will be a string.
