@@ -21,7 +21,7 @@ keyword.py - Vigenère cipher
 - As well as a message to encrypt, the user enters a keyword, both of which are strings.
 - The depending on the length of the message, this algorithm would concatenate the keyword with as many copies of itself as necessary until the length of the newly created keyword would match or exceed the length of the message. Once that condition is satisfied, the keyword would truncate so that its length precisely matched the length of the message.
 - Encryption works by lining up the two strings and considering each corresponding pair of letters. In other words, the first letter of the keyword would pair up with the first letter of message, likewise with the second letter, and so on.
-- Then, each message letter's numerical value (position in the alphabet) would be added to that of it's corresponding letter in the keyword. This would generate a new number, hence a new index, and then this would return a new letter, an encrypted letter.
+- Then, each message letter's numerical value (position in the alphabet) would be added to that of it's corresponding letter in the keyword. This would generate a new number and ultimately return a new, encrypted letter.
 - *e.g*: if *tangerine* is the message and *apple* is the keyword, the new keyword would become *appleappl*
 - the first letter, *t* in *tangerine* would then line up with *a*, the first letter in *appleappl* and then essentially the first newly encrypted letter would become *u*
 - This is because *t* is the 20th letter of the alphabet and *a* is the 1st letter of the alphabet. 20 + 1 = 21 therefore the newly encrypted letter becomes the 21st letter of the alphabet, which is of course *u* 
