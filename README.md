@@ -13,10 +13,10 @@ caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 - Only letters are encrypted.
 - Expect uppercase letters in the output of this particular algorithm, regardless of letter case.
 
-keyword.py - Vigenère cipher
+keyword.py - [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 -
 
-- Invented by [Blaise de Vigenère ](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
+- Invented by Blaise de Vigenère
 - As well as a message to encrypt, the user enters a keyword, both of which are strings.
 - The depending on the length of the message, this algorithm would concatenate the keyword with as many copies of itself as necessary until the length of the newly created keyword would match or exceed the length of the message. Once that condition is satisfied, the keyword would truncate so that its length precisely matched the length of the message.
 - Encryption works by lining up the two strings and considering each corresponding pair of letters. In other words, the first letter of the keyword would pair up with the first letter of message, likewise with the second letter, and so on.
