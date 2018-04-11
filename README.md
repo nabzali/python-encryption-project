@@ -3,6 +3,7 @@ This repo is a personal favourite. It includes a series of python scripts (caesa
 
 caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 -
+<img src = "https://en.wikipedia.org/wiki/Caesar_cipher" alt = "Caesar Cipher" style="margin:auto">
 
 - User enters an offset (integer between -25 and 25 inclusive).
 - User also enters a message to encrypt, which will be a string.
@@ -13,7 +14,7 @@ caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 - Only letters are encrypted.
 - Expect uppercase letters in the output of this particular algorithm, regardless of letter case.
 
-keyword.py - [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
+keyword.py - [Vigenère Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 -
 
 - Invented by Blaise de Vigenère
@@ -27,5 +28,10 @@ keyword.py - [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_ciph
 - Only letters are encrypted.
 - Expect uppercase letters in the output of this particular algorithm, regardless of letter case.
 
+fileKeyword.py - Double Keyword Cipher (with file handling)
+-
+- Essentially, this is the same algorithm as that used in the Vigenère Cipher except that there are two keywords used, which makes this the most secure method of encryption amongst these three.
+- Apart from this, there is also file handling in this particular python script and as such the user has the ability to encrypt text files
+- It is worth noting that the use of two keywords means there is more error checking involved to ensure that a valid ecnrypted letter is returned.
 
 March 2018
