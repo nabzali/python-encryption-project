@@ -1,5 +1,5 @@
 # Python Encryption Project
-This repository is a personal favourite. It includes a series of python source code files (caesar.py, keyword.py, fileKeyword.py). Each of the three scripts are individual encryption algorithms of different levels of robustness. In short, encryption allows messages (essentially data) to be sent across networks securely. **No frameworks or external libraries/modules were used in this project.**
+In short, encryption allows messages (essentially data) to be sent across networks securely. This repository includes a series of python source code files (caesar.py, keyword.py, fileKeyword.py). Each of the three scripts are individual encryption algorithms of different levels of robustness. **No frameworks or external libraries/modules were used in this project.**
 
 
 
@@ -12,7 +12,7 @@ caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 - The message gets encrypted. Decryption will basically work in the same way as encryption except that the offset is negated.
 - Works by shifting each letter down the alphabet by a constant value, i.e by the offset.
 - *e.g*: if the offset was 2, the letter *a* would change to a *c*.
-- If the newly encrypted value is outside the range of the alphabet, then the algorithm ensures that we wrap around
+- If the newly encrypted value goes beyond the letter *z*, then we continue by going back to the beginning of the alphabet, and so the letter *a* will follow the *z*. Similarly, we wrap around to the back of the alphabet when a newly encrypted value preceeds the letter *a*.
 - Only letters are encrypted.
 - Expect uppercase letters in the output of this particular algorithm, regardless of letter case.
 
@@ -35,8 +35,6 @@ fileKeyword.py - Double Keyword Cipher (with file handling)
 - Fundamentally, this is the same algorithm as that used in the Vigenère Cipher except that there are two keywords used, which makes this the most secure method of encryption amongst these three.
 - Apart from this, there is also file handling in this particular python script and as such the user has the ability to encrypt text files
 - It is worth noting that the use of two keywords means there is more error checking involved to ensure that a valid ecnrypted letter is returned.
-
-Cloning:
 
 
 **March 2018 | Nabeel Ali**
