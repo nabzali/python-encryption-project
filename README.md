@@ -1,5 +1,5 @@
 # Python Encryption Project
-In short, encryption allows messages (essentially data) to be sent across networks securely by converting them into meaningless text, which can only be decoded by an algorithm that must be known to whoever is responsible for decoding the data. In WW2, Germany used encryption to prevent enemies such as Britain from understanding what messages were being passed to their compatriots in the case that British soldiers were able to intercept these messages.
+In short, encryption allows messages (essentially data) to be sent across networks securely by converting them into meaningless text, which can only be decoded by an algorithm that must be known to whoever is responsible for decoding the data. In WW2, Germany used encryption to prevent enemies such as Britain from understanding what messages were being passed to their compatriots in the case that British soldiers were able to intercept these messages and use them to their advantage.
 This repository includes a series of python source code files (caesar.py, keyword.py, fileKeyword.py) and each of the three scripts are individual encryption algorithms of different levels of strength and security. **No frameworks or external libraries/modules were used in this project.**
 
 
@@ -13,7 +13,7 @@ caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 - The message gets encrypted. Decryption will basically work in the same way as encryption except that the offset is negated.
 - Works by shifting each letter down the alphabet by a constant value, i.e by the offset.
 - *e.g*: if the offset was 2, the letter *a* would change to a *c*.
-- If the newly encrypted value goes beyond the letter *z*, then we continue by going back to the beginning of the alphabet, and so the letter *a* will follow the *z*. Similarly, we wrap around to the back of the alphabet when a newly encrypted value preceeds the letter *a*.
+- If the newly encrypted value exceeds the letter *z*, then we continue by going back to the beginning of the alphabet, and so the letter *a* will follow the *z*. Similarly, we wrap around to the back of the alphabet when a newly encrypted value preceeds the letter *a*.
 - Only letters are encrypted.
 - Expect uppercase letters in the output of this particular algorithm, regardless of letter case.
 
