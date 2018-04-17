@@ -1,5 +1,6 @@
 # Python Encryption Project
-In short, encryption allows messages (essentially data) to be sent across networks securely. This repository includes a series of python source code files (caesar.py, keyword.py, fileKeyword.py). Each of the three scripts are individual encryption algorithms of different levels of robustness. **No frameworks or external libraries/modules were used in this project.**
+In short, encryption allows messages (essentially data) to be sent across networks securely by converting the data into gibberish, which can only be decoded by a specific key (algorithm) that must be known to the one whoever is responsible over decoding the data, whether that be a human or a computer. In WW2, Germany used encryption to send messages to their compatriots in order to prevent enemies such as Britain from understanding what messages were being passed in case British soldiers intercepted these messages.
+This repository includes a series of python source code files (caesar.py, keyword.py, fileKeyword.py). Each of the three scripts are individual encryption algorithms of different levels of robustness. **No frameworks or external libraries/modules were used in this project.**
 
 
 
