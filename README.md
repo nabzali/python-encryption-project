@@ -5,7 +5,9 @@ In the 1940s (during WW2), the art of cryptography was something exploited by th
 
 Now, cryptography plays a huge role in the foundation of the internet, where millions (or perhaps billions) of people are communicating and sharing sensitive data, such as bank details.
 
-In this repository, you will find 3 scripts, each containing the implementation of 3 different encryption algorithms of varying levels of strength. *caesar.py* and *keyword.py* are able to encrypt strings, whilst *fileKeyword.py* encrypts text files. **No third party libraries are used in this project.**
+In this repository, you will find 3 scripts. *caesar.py* and *keyword.py* and *fileKeyword.py*.
+Each script contains the implementation of an encryption algorithm, but have varying levels of strength/security.
+**No third party libraries are used in this project.**
 
 1: caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 -
