@@ -1,7 +1,7 @@
 # Python Encryption Project (A Level CS Coursework)
-Encryption allows data to be sent securely across public networks (such as the internet) by masking the data in a manner that only the intended recipient should be able to interpret it, provided they have the key to decode the data.
+Encryption allows data to be sent securely across public networks (such as the internet) by masking the data in a manner that only the intended recipient should be able to interpret it, provided they have the correct 'key' to decode the data.
 
-In the 1940s, the art of cryptography was something exploited by the Germans, who encrypted their messsages to their compatriots, ensuring Britain could not eavesdrop on them.
+In the 1940s (during WW2), the art of cryptography was something exploited by the Germans, who encrypted their messsages to their compatriots, ensuring Britain could not eavesdrop on them.
 Now, cryptography plays a huge role in the foundation of the internet, where millions (or perhaps billions) of people are communicating and sharing sensitive data, such as bank details.
 
 This repository includes a series of python source code files (*caesar.py*, *keyword.py*, *fileKeyword.py*) and each of the three scripts are individual encryption algorithms of different levels of strength and security. *caesar.py* and *keyword.py* are able to encrypt strings, whilst *fileKeyword.py* encrypts text files. **No third party libraries are used in this project.**
