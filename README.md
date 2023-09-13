@@ -1,10 +1,12 @@
 # Python Encryption Project (A Level CS Coursework)
-In short, encryption allows messages (essentially data) to be sent across networks securely by converting them into meaningless text, which can only be decoded by a specific key/algorithm known to the decoder. In WW2, Germany used encryption to prevent enemies such as Britain from understanding what messages were being passed to their compatriots in the case that British soldiers were able to intercept these messages and use them to their advantage.
-This repository includes a series of python source code files (*caesar.py*, *keyword.py*, *fileKeyword.py*) and each of the three scripts are individual encryption algorithms of different levels of strength and security. *caesar.py* and *keyword.py* are able to encrypt strings, whilst *fileKeyword.py* encrypts text files. **No frameworks or external libraries/modules were used in this project.**
+Encryption allows data to be sent securely across public networks, such as the internet, by masking the data in that only the intended recipient should be able to decode the data, should they have the correct 'key' to decode it.
 
+In the 1940s, the art of cryptography was something exploited by the Germans, who encrypted their messsages to their compatriots, ensuring Britain could not eavesdrop on them.
+Now, cryptography plays a huge role in the foundation of the internet, where millions (or perhaps billions) of people are communicating and sharing sensitive data, such as bank details.
 
+This repository includes a series of python source code files (*caesar.py*, *keyword.py*, *fileKeyword.py*) and each of the three scripts are individual encryption algorithms of different levels of strength and security. *caesar.py* and *keyword.py* are able to encrypt strings, whilst *fileKeyword.py* encrypts text files. **No third party libraries are used in this project.**
 
-caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
+1: caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 -
 <br><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/1200px-Caesar_cipher_left_shift_of_3.svg.png" alt = "Caesar Cipher" style="margin:auto" width = "500px" height = "200px"><br>
 
@@ -17,7 +19,7 @@ caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 - Only letters are encrypted.
 - Expect uppercase letters in the output of this particular algorithm, regardless of letter case.
 
-keyword.py - [Vigenère Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
+2: keyword.py - [Vigenère Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 -
 
 - Invented by Blaise de Vigenère
@@ -31,7 +33,7 @@ keyword.py - [Vigenère Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_ciph
 - Only letters are encrypted.
 - Expect uppercase letters in the output of this particular algorithm, regardless of letter case.
 
-fileKeyword.py - Double Keyword Cipher (with file handling)
+3: fileKeyword.py - Double Keyword Cipher (with file handling)
 -
 - Fundamentally, this is the same algorithm as that used in the Vigenère Cipher except that there are two keywords used, which makes this the most secure method of encryption amongst these three.
 - Apart from this, there is also file handling in this particular python script and as such the user has the ability to encrypt text files
