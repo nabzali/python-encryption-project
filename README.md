@@ -1,4 +1,4 @@
-# Python Encryption Project (A Level Computer Science Coursework)
+# Python Encryption Project (A Level CS Coursework)
 In short, encryption allows messages (essentially data) to be sent across networks securely by converting them into meaningless text, which can only be decoded by a specific key/algorithm known to the decoder. In WW2, Germany used encryption to prevent enemies such as Britain from understanding what messages were being passed to their compatriots in the case that British soldiers were able to intercept these messages and use them to their advantage.
 This repository includes a series of python source code files (*caesar.py*, *keyword.py*, *fileKeyword.py*) and each of the three scripts are individual encryption algorithms of different levels of strength and security. *caesar.py* and *keyword.py* are able to encrypt strings, whilst *fileKeyword.py* encrypts text files. **No frameworks or external libraries/modules were used in this project.**
 
