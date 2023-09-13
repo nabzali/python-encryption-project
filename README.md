@@ -41,8 +41,3 @@ Each script contains the implementation of an encryption algorithm, but have var
 - Fundamentally, this is the same algorithm as that used in the Vigenère Cipher except that there are two keywords used, which makes this the most secure method of encryption amongst these three.
 - Apart from this, there is also file handling in this particular python script and as such the user has the ability to encrypt text files
 - It is worth noting that the use of two keywords means there is more error checking involved to ensure that a valid ecnrypted letter is returned.
-
-
-**March 2018 | Nabeel Ali**
-
-
