@@ -1,5 +1,5 @@
 # Python Encryption Project (A Level CS Coursework)
-Encryption allows data to be sent securely across public networks, such as the internet, by masking the data in that only the intended recipient should be able to decode the data, should they have the correct 'key' to decode it.
+Encryption allows data to be sent securely across public networks (such as the internet) by masking the data in a manner that only the intended recipient should be able to interpret it, provided they have the key to decode the data.
 
 In the 1940s, the art of cryptography was something exploited by the Germans, who encrypted their messsages to their compatriots, ensuring Britain could not eavesdrop on them.
 Now, cryptography plays a huge role in the foundation of the internet, where millions (or perhaps billions) of people are communicating and sharing sensitive data, such as bank details.
