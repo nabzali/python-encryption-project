@@ -2,9 +2,10 @@
 Encryption allows data to be sent securely across public networks (such as the internet) by masking the data in a manner that only the intended recipient should be able to interpret it, provided they have the correct 'key' to decode the data.
 
 In the 1940s (during WW2), the art of cryptography was something exploited by the Germans, who encrypted their messsages to their compatriots, ensuring Britain could not eavesdrop on them.
+
 Now, cryptography plays a huge role in the foundation of the internet, where millions (or perhaps billions) of people are communicating and sharing sensitive data, such as bank details.
 
-This repository includes a series of python source code files (*caesar.py*, *keyword.py*, *fileKeyword.py*) and each of the three scripts are individual encryption algorithms of different levels of strength and security. *caesar.py* and *keyword.py* are able to encrypt strings, whilst *fileKeyword.py* encrypts text files. **No third party libraries are used in this project.**
+In this repository, you will find 3 scripts, each containing the implementation of 3 different encryption algorithms of varying levels of strength. *caesar.py* and *keyword.py* are able to encrypt strings, whilst *fileKeyword.py* encrypts text files. **No third party libraries are used in this project.**
 
 1: caesar.py - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 -
