@@ -1,4 +1,4 @@
-# Python Encryption Project (A Level CS Coursework)
+# Python Encryption Project (2016/17 Computer Science Coursework)
 Encryption allows data to be sent securely across public networks (such as the internet) by masking the data in a manner that only the intended recipient should be able to interpret it, provided they have the correct 'key' to decode the data.
 
 In the 1940s (during WW2), the art of cryptography was something exploited by the Germans, who encrypted their messsages to their compatriots, ensuring Britain could not eavesdrop on them.
